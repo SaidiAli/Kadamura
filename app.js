@@ -12,6 +12,8 @@ const pages = require('./routes/pages')
 
 const MONGO_URI = 'mongodb://127.0.0.1:27017/kadamura'
 
+const PORT = process.env.PORT || 3000
+
 app = express()
 
 mongoose.connect(MONGO_URI, {
@@ -43,4 +45,4 @@ app.set("view engine", "handlebars")
 app.use('/' ,pages)
 
 
-app.listen(3000)
+app.listen(PORT , () => console.log(`Server started on port ${PORT}`))
