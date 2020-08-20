@@ -1,0 +1,148 @@
+body{
+  background-color: rgb(247, 247, 247);
+}
+
+#content {
+  margin: 0 20px;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 60vh;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-signin-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-signin-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.section {
+  background-color: white;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.category {
+  padding: 2rem 0;
+  margin: 1rem 0 0 0;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+.category:hover {
+  box-shadow: 0 8px 6px -2px rgb(0, 0, 0, .3);
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.carousel-cell {
+  margin: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.country {
+  color: orangered;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+.flickity-button {
+  display: none;
+}
+
+.ad {
+  margin: 2rem 0;
+}
+
+.vendor-description {
+  margin: 2rem 0;
+}
+
+.masthead-vendor {
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/img/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
+  height: 50vh;
+}
+
+.masthead-vendor h1 {
+  font-size: 2rem;
+}
+
+  .masthead-vendor p {
+    font-size: 1.15rem;
+  }
+
+  .masthead-vendor h1 {
+    font-size: 2.5rem;
+  }
+
+
+@media (min-width: 1200px) {
+  .masthead-vendor h1 {
+    font-size: 3rem;
+  }
+}
+
+.masthead-cat {
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/img/phones.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
+  height: 50vh;
+}
+
+.masthead-cat h1 {
+  font-size: 2rem;
+}
+
+  .masthead-cat p {
+    font-size: 1.15rem;
+  }
+
+  .masthead-cat h1 {
+    font-size: 3rem;
+  }
+
+
+  @media (min-width: 1200px) {
+    .masthead-cat h1 {
+      font-size: 3rem;
+    }
+  }
