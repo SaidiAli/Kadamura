@@ -14,7 +14,10 @@ const MONGO_URI = 'mongodb://127.0.0.1:27017/kadamura'
 
 app = express()
 
-mongoose.connect(MONGO_URI, {useNewUrlParser: true})
+mongoose.connect(MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
   .then(console.log('MongoDB connected'))
   .catch(err => console.error(err))
 
